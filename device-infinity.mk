@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/google/lynx-kernels/5.10/24Q4-12476354/Image.lz4
+TARGET_PREBUILT_KERNEL := device/google/lynx-kernels/5.10/24Q4-12796571/Image.lz4
 
 # PixelParts
 include packages/apps/PixelParts/device.mk

@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-TARGET_KERNEL_DIR ?= device/google/lynx-kernels/5.10/24Q4-12476354
-TARGET_BOARD_KERNEL_HEADERS ?= device/google/lynx-kernels/5.10/24Q4-12476354/kernel-headers
+TARGET_KERNEL_DIR ?= device/google/lynx-kernels/5.10/24Q4-12796571
+TARGET_BOARD_KERNEL_HEADERS ?= device/google/lynx-kernels/5.10/24Q4-12796571/kernel-headers
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_LYNX_VERSION)
 
