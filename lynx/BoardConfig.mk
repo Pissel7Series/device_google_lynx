@@ -15,6 +15,9 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 include device/google/gs201/BoardConfig-common.mk
 
+BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Kernel modules
 BOARD_BOOTCONFIG += androidboot.load_modules_parallel=true
 
